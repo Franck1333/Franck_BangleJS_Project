@@ -32,7 +32,6 @@ setWatch(() => { //Si le bouton du millieux (Bouton 2) est actionnee alors, le G
 
     Terminal.print(gps.lat);
     Terminal.println(gps.lon);
-    Terminal.println(gps.alt);
     Terminal.println(gps.speed);
     Terminal.println(gps.time);
     Terminal.println(gps.satellites);
